@@ -1,0 +1,134 @@
+{
+  "n_all_orders": 99441,
+  "n_eligible": 96456,
+  "late_rate_overall": 0.06774073152525503,
+  "n_late": 6534,
+  "peak_late_month": "2018-03",
+  "peak_late_rate": 0.18963301442239042,
+  "peak_late_n": 7003,
+  "min_late_month": "2016-10",
+  "min_late_rate": 0.007547169811320755,
+  "worst_state": "AL",
+  "worst_state_rate": 0.2141057934508816,
+  "worst_state_n": 397,
+  "best_state": "AM",
+  "best_state_rate": 0.027586206896551724,
+  "best_state_n": 145,
+  "n_states_small": 3,
+  "multi_multi-seller_rate": 0.01019607843137255,
+  "multi_multi-seller_n": 1275,
+  "multi_single_seller_rate": 0.06851157268782636,
+  "multi_single_seller_n": 95181,
+  "same_different_state_rate": 0.08048247389298147,
+  "same_different_state_n": 61765,
+  "same_same_state_rate": 0.045054913378109594,
+  "same_same_state_n": 34691,
+  "cat_worst": "audio",
+  "cat_worst_rate": 0.11918604651162791,
+  "cat_worst_n": 344,
+  "cat_best": "construction_tools_safety",
+  "cat_best_rate": 0.026143790849673203,
+  "cat_best_n": 153,
+  "n_categories_total": 74,
+  "n_categories_ge_min": 52,
+  "size_rates": {
+    "1 item": [
+      0.06938333602082422,
+      86822
+    ],
+    "2 items": [
+      0.05371397645785415,
+      7391
+    ],
+    "3 items": [
+      0.04900459418070444,
+      1306
+    ],
+    "4+ items": [
+      0.052294557097118465,
+      937
+    ]
+  },
+  "planned_median_ontime": 22.822291666666665,
+  "planned_median_late": 22.10435763888889,
+  "corr_planned_actual": 0.5214280579024507,
+  "planned_octile_rates": [
+    [
+      "(-6.665, 13.465]",
+      0.0649415277432197,
+      12057
+    ],
+    [
+      "(13.465, 17.906]",
+      0.06427801277266318,
+      12057
+    ],
+    [
+      "(17.906, 20.511]",
+      0.0853446130878328,
+      12057
+    ],
+    [
+      "(20.511, 22.669]",
+      0.07912416023886538,
+      12057
+    ],
+    [
+      "(22.669, 25.201]",
+      0.07232313179066102,
+      12057
+    ],
+    [
+      "(25.201, 28.067]",
+      0.07224019241934146,
+      12057
+    ],
+    [
+      "(28.067, 32.575]",
+      0.06411213403002405,
+      12057
+    ],
+    [
+      "(32.575, 153.576]",
+      0.03956208011943269,
+      12057
+    ]
+  ],
+  "top_corr": {
+    "same_state": -0.06765475676384806,
+    "total_freight": 0.05236658982819291,
+    "approved_month": -0.03876423462200309,
+    "approval_delay_hours": 0.03125819048273812,
+    "total_payment": 0.029180503485579982
+  },
+  "n_excluded": 2985,
+  "funnel": [
+    {
+      "step": "All orders",
+      "orders_remaining": 99441
+    },
+    {
+      "step": "order_status == delivered",
+      "orders_remaining": 96478
+    },
+    {
+      "step": "delivered date and estimated date present",
+      "orders_remaining": 96470
+    },
+    {
+      "step": "purchase and approval timestamps present and approval >= purchase",
+      "orders_remaining": 96456
+    },
+    {
+      "step": "delivered on/after purchase",
+      "orders_remaining": 96456
+    },
+    {
+      "step": "order has >= 1 item",
+      "orders_remaining": 96456
+    }
+  ],
+  "train_late": 0.07830388483241754,
+  "val_late": 0.04340613768316284,
+  "test_late": 0.042781118252816365
+}

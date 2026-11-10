@@ -1,0 +1,7 @@
+column,missing_all_orders,missing_eligible
+order_approved_at,160,0
+order_delivered_carrier_date,1783,1
+order_delivered_customer_date,2965,0
+n_items,775,0
+total_payment,1,1
+total_weight_g,775,0

@@ -1,0 +1,8 @@
+table,expected,actual,match
+orders,99441,99441,True
+customers,99441,99441,True
+order_items,112650,112650,True
+order_payments,103886,103886,True
+products,32951,32951,True
+sellers,3095,3095,True
+translation,71,71,True

@@ -1,0 +1,5 @@
+step,rows_after,unique_order_id
+orders (base),99441,99441
++ customers (N:1 on customer_id),99441,99441
++ aggregated order_items (1:1 after groupby),99441,99441
++ aggregated order_payments (1:1 after groupby),99441,99441

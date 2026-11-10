@@ -1,6 +1,6 @@
 model,split,tn,fp,fn,tp,threshold
-Logistic Regression,validation,12631,1209,418,210,0.696389015506124
-Logistic Regression,test,11179,2671,445,174,0.696389015506124
+Logistic Regression,validation,12633,1207,418,210,0.6965843584965025
+Logistic Regression,test,11181,2669,445,174,0.6965843584965025
 HistGradientBoosting,validation,12995,845,479,149,0.5340891307067334
 HistGradientBoosting,test,12411,1439,483,136,0.5340891307067334
 Random Forest,validation,13075,765,497,131,0.41999938379281815

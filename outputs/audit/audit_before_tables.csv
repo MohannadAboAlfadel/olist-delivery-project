@@ -1,0 +1,8 @@
+table,rows,cols,total_missing_cells,full_duplicate_rows,key,key_unique,duplicate_keys
+orders,99441,8,4908,0,order_id,True,0
+customers,99441,5,0,0,customer_id,True,0
+order_items,112650,7,0,0,order_id+order_item_id,True,0
+order_payments,103886,5,0,0,order_id+payment_sequential,True,0
+products,32951,9,0,0,product_id,True,0
+sellers,3095,4,0,0,seller_id,True,0
+translation,71,2,0,0,product_category_name,True,0

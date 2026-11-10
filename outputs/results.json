@@ -1,0 +1,158 @@
+{
+  "split": [
+    {
+      "split": "train",
+      "start": "2016-09-15 12:16:38",
+      "end": "2018-04-16 09:15:20",
+      "n": 67519,
+      "n_late": 5287,
+      "late_rate": 0.07830388483241754
+    },
+    {
+      "split": "validation",
+      "start": "2018-04-16 09:31:24",
+      "end": "2018-06-21 12:40:50",
+      "n": 14468,
+      "n_late": 628,
+      "late_rate": 0.04340613768316284
+    },
+    {
+      "split": "test (final)",
+      "start": "2018-06-21 12:41:03",
+      "end": "2018-08-29 15:10:26",
+      "n": 14469,
+      "n_late": 619,
+      "late_rate": 0.042781118252816365
+    }
+  ],
+  "selected_model": "Logistic Regression",
+  "selected_beats_baseline_test_AP": true,
+  "baseline_test": {
+    "accuracy": 0.9572188817471836,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "average_precision": 0.042781118252816365,
+    "roc_auc": 0.5,
+    "tn": 13850,
+    "fp": 0,
+    "fn": 619,
+    "tp": 0,
+    "threshold": 0.5
+  },
+  "always_late_test": {
+    "accuracy": 0.042781118252816365,
+    "precision": 0.042781118252816365,
+    "recall": 1.0,
+    "f1": 0.08205196182396607,
+    "average_precision": 0.042781118252816365,
+    "roc_auc": 0.5,
+    "tn": 0,
+    "fp": 13850,
+    "fn": 0,
+    "tp": 619,
+    "threshold": 0.5
+  },
+  "models": {
+    "Logistic Regression": {
+      "params": {
+        "C": 1.0
+      },
+      "threshold": 0.696389015506124,
+      "val": {
+        "accuracy": 0.8875449267348632,
+        "precision": 0.14799154334038056,
+        "recall": 0.3343949044585987,
+        "f1": 0.20517830972154372,
+        "average_precision": 0.11796820867471,
+        "roc_auc": 0.7533019540885828,
+        "tn": 12631,
+        "fp": 1209,
+        "fn": 418,
+        "tp": 210,
+        "threshold": 0.696389015506124
+      },
+      "test": {
+        "accuracy": 0.7846430299260488,
+        "precision": 0.06115992970123023,
+        "recall": 0.28109854604200324,
+        "f1": 0.10046189376443418,
+        "average_precision": 0.06896260953609996,
+        "roc_auc": 0.6207533986924293,
+        "tn": 11179,
+        "fp": 2671,
+        "fn": 445,
+        "tp": 174,
+        "threshold": 0.696389015506124
+      }
+    },
+    "HistGradientBoosting": {
+      "params": {
+        "learning_rate": 0.1,
+        "max_leaf_nodes": 15,
+        "l2_regularization": 1.0
+      },
+      "threshold": 0.5340891307067334,
+      "val": {
+        "accuracy": 0.9084876969864528,
+        "precision": 0.14989939637826963,
+        "recall": 0.2372611464968153,
+        "f1": 0.18372379778051787,
+        "average_precision": 0.11256266537184385,
+        "roc_auc": 0.7072843990464269,
+        "tn": 12995,
+        "fp": 845,
+        "fn": 479,
+        "tp": 149,
+        "threshold": 0.5340891307067334
+      },
+      "test": {
+        "accuracy": 0.8671642822586219,
+        "precision": 0.08634920634920636,
+        "recall": 0.2197092084006462,
+        "f1": 0.12397447584320875,
+        "average_precision": 0.07830316682445299,
+        "roc_auc": 0.6937259933629996,
+        "tn": 12411,
+        "fp": 1439,
+        "fn": 483,
+        "tp": 136,
+        "threshold": 0.5340891307067334
+      }
+    },
+    "Random Forest": {
+      "params": {
+        "min_samples_leaf": 10,
+        "max_depth": null
+      },
+      "threshold": 0.41999938379281815,
+      "val": {
+        "accuracy": 0.9127730163118607,
+        "precision": 0.14620535714285715,
+        "recall": 0.2085987261146497,
+        "f1": 0.17191601049868765,
+        "average_precision": 0.09970384557147365,
+        "roc_auc": 0.6963166396671698,
+        "tn": 13075,
+        "fp": 765,
+        "fn": 497,
+        "tp": 131,
+        "threshold": 0.41999938379281815
+      },
+      "test": {
+        "accuracy": 0.8764254613311218,
+        "precision": 0.05210727969348659,
+        "recall": 0.1098546042003231,
+        "f1": 0.07068607068607069,
+        "average_precision": 0.05533050975809656,
+        "roc_auc": 0.5978403503962955,
+        "tn": 12613,
+        "fp": 1237,
+        "fn": 551,
+        "tp": 68,
+        "threshold": 0.41999938379281815
+      }
+    }
+  },
+  "n_features": 26
+}
